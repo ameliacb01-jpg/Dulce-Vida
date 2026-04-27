@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dulce Vida</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #fffaf7;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, #eed8f3, #dbb7e4);
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 8px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background-color: #f7eefa;
+    }
+
+    .hero h2 {
+      font-size: 2.3rem;
+      margin-bottom: 15px;
+    }
+
+    .hero button {
+      margin-top: 20px;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 25px;
+      background-color: #d6a4e0;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .productos {
+      padding: 50px 40px;
+    }
+
+    .productos h2, .beneficios h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 15px;
+      padding: 25px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .beneficios {
+      background-color: #f8f9fa;
+      padding: 50px 40px;
+      text-align: center;
+    }
+
+    .beneficios ul {
+      list-style: none;
+      font-size: 1.1rem;
+    }
+
+    .beneficios li {
+      margin: 10px 0;
+    }
+
+    footer {
+      background-color: #eed8f3;
+      text-align: center;
+      padding: 25px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dulce Vida </h1>
+    <p></p>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#productos">Productos</a>
+      <a href="#beneficios">Beneficios</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <h2>Lo saludable también puede ser delicioso</h2>
+    <p>Descubre nuestros postres preparados con ingredientes naturales, bajos en azúcar y llenos de sabor.</p>
+    <button>Comprar ahora</button>
+  </section>
+
+  <section class="productos" id="productos">
+    <h2>Nuestros productos</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Brownie de avena</h3>
+        <p>Hecho con cacao natural y miel.</p>
+        <p><strong>RD$120</strong></p>
+      </div>
+      <div class="card">
+        <h3>Cheesecake light</h3>
+        <p>Con yogur griego y fresas naturales.</p>
+        <p><strong>RD$180</strong></p>
+      </div>
+      <div class="card">
+        <h3>Galletas integrales</h3>
+        <p>Ricas en fibra y chocolate oscuro.</p>
+        <p><strong>RD$90</strong></p>
+      </div>
+      <div class="card">
+        <h3>Cupcakes fit</h3>
+        <p>Sin azúcar refinada y con crema ligera.</p>
+        <p><strong>RD$100</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="beneficios" id="beneficios">
+    <h2>¿Por qué elegirnos?</h2>
+    <ul>
+      <li>✔ Ingredientes naturales</li>
+      <li>✔ Bajos en azúcar</li>
+      <li>✔ Opciones nutritivas</li>
+      <li>✔ Sabor delicioso</li>
+    </ul>
+  </section>
+
+  <footer id="contacto">
+    <p>Instagram: @dulcevida_rd</p>
+    <p>WhatsApp: 809-000-0000</p>
+    <p>Email: dulcevida@gmail.com</p>
+  </footer>
+</body>
+</html>
